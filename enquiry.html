@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Rams Instruments</title>
+    <link rel="stylesheet" href="css/style-full.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Rams Instruments Logo">
+        </div>
+        <h1>Rams Instruments</h1>
+        <p>Play, Create, Inspire</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Ask About Product</h2>
+            <p>Fill this form to ask about musik intrament or servise. We will answer your question soon.</p>
+        </section>
+
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Your Personal Info</legend>
+                    
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Question</legend>
+                    
+                    <label for="product">What Musik Intrament:</label>
+                    <select id="product" name="product" required>
+                        <option value="">-- Choose Intrament --</option>
+                        <option value="guitar">Acoustic Guitar</option>
+                        <option value="electric">Electric Guitar</option>
+                        <option value="keyboard">Keyboard</option>
+                        <option value="drums">Drums</option>
+                        <option value="violin">Violin</option>
+                        <option value="wind">Wind Intrament</option>
+                        <option value="other">Other</option>
+                    </select>
+                    
+                    <label for="question">Your Question:</label>
+                    <textarea id="question" name="question" required placeholder="Write your question here..."></textarea>
+                </fieldset>
+
+                <button type="submit">Send Enquiry</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rams Instruments. All rights protekted.</p>
+        <p>Email: info@ramsinstruments.co.za | Phone: +27 15 555 0123</p>
+    </footer>
+</body>
+</html>
