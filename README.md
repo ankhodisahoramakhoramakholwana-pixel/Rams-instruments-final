@@ -115,7 +115,8 @@ Rams Instruments is a website for a music instruments store. You can see all our
 - `about.html` - About company and team
 - `products.html` - Product catalog
 - `enquiry.html` - Customer inquiry form
-- `contact.html` - Contact information and form
+- `contact.html` - Contact information and form.
+- 
 
 ### CSS
 - `css/style-full.css` - Main stylesheet (all responsive design)
@@ -245,33 +246,6 @@ All work perfectly!
 - ✓ Semantic HTML structure
 - ✓ Color contrast good
 - ✓ Keyboard navigation works
-
----
-
-## Part 2 Rubric Coverage
-
-- ✓ External stylesheet (10 marks)
-- ✓ Default styles (5 marks)
-- ✓ Typography (5 marks)
-- ✓ Layout (5 marks)
-- ✓ Decoration & colour (5 marks)
-- ✓ Pseudo-classes (10 marks)
-- ✓ Media queries (10 marks)
-- ✓ Layout adjustments (5 marks)
-- ✓ Typography adjustments (5 marks)
-- ✓ Navigation adjustments (5 marks)
-- ✓ Image adjustments (5 marks)
-- ✓ GitHub commits (5 marks)
-
-**Total: 95-100/100 marks expected**
-
----
-
-## Estimated Marks
-
-- Part 1: 50/100 (already done)
-- Part 2: 95-100/100 (this version)
-- **Total: 145-150/200**
 
 ---
 
