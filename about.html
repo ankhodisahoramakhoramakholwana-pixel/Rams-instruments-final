@@ -1,93 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Rams Instruments</title>
-    <link rel="stylesheet" href="css/style-full.css">
+    <title>About Us | Rams Instruments Music Shop</title>
+    <meta name="description" content="Meet the Rams Instruments team and learn how our South African music shop helps people choose, learn and repair musical instruments.">
+    <meta name="keywords" content="about Rams Instruments, music shop team, instrument repairs, music lessons South Africa">
+    <meta name="author" content="Rams Instruments">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/rams-instruments/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Us | Rams Instruments Music Shop">
+    <meta property="og:description" content="Meet the Rams Instruments team and learn how our South African music shop helps people choose, learn and repair musical instruments.">
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/rams-instruments/about.html">
+    <meta property="og:image" content="https://YOUR-USERNAME.github.io/rams-instruments/images/rams-instruments-logo.png">
+    <link rel="icon" type="image/png" href="images/rams-instruments-logo.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="Rams Instruments Logo">
-        </div>
-        <h1>Rams Instruments</h1>
+        <div class="logo"><img src="images/rams-instruments-logo.png" alt="Rams Instruments logo" width="80" height="80"></div>
+        <p class="site-name">Rams Instruments</p>
         <p>Play, Create, Inspire</p>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">&#9776; Menu</button>
+        <ul id="nav-menu"><li><a href="index.html">Home</a></li><li><a href="about.html" aria-current="page">About</a></li><li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul>
     </nav>
-
-    <main>
-        <section>
-            <h2>Our Story</h2>
-            <p>Rams Instruments is a shop that sell musik intrament. We want help people learn musik and play musik.</p>
-            <p>Our boss is Ramakholwana Ankhodisaho. He make this shop because he like musik very much. He have good employees that help customer every day.</p>
-        </section>
-
-        <section>
-            <h2>Our Team</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="avatar">👔</div>
-                    <h3>Ramakholwana Ankhodisaho</h3>
-                    <p><strong>Boss / Owner</strong></p>
-                    <p>The boss of Rams Instruments. He make this company to help people play musik.</p>
+    <main id="main">
+        <section class="reveal">
+            <h1>About Rams Instruments</h1>
+            <div class="tabs">
+                <div class="tab-list" role="tablist" aria-label="About sections">
+                    <button role="tab" class="active" aria-selected="true" aria-controls="tab-story" id="t1" type="button">Our Story</button>
+                    <button role="tab" aria-selected="false" aria-controls="tab-team" id="t2" type="button">Our Team</button>
+                    <button role="tab" aria-selected="false" aria-controls="tab-do" id="t3" type="button">What We Do</button>
                 </div>
-                <div class="team-member">
-                    <div class="avatar">👨</div>
-                    <h3>Ndou Khavhas</h3>
-                    <p><strong>Employee</strong></p>
-                    <p>Help customer find good musik intrament and give good advise.</p>
+                <div role="tabpanel" id="tab-story" aria-labelledby="t1">
+                    <h2>Our Story</h2>
+                    <p>Rams Instruments is a music shop. We sell good instruments and we want to help people learn and play music.</p>
+                    <p>Our owner, Ramakholwana Ankhodisaho, started the shop because he loves music. Today we have stores in three cities.</p>
+                    <p><a href="contact.html">Find your nearest store</a> or <a href="products.html">see what we sell</a>.</p>
                 </div>
-                <div class="team-member">
-                    <div class="avatar">👨</div>
-                    <h3>Kopano Sinthumule</h3>
-                    <p><strong>Employee</strong></p>
-                    <p>Take care of customer order and make sure all servise is good.</p>
+                <div role="tabpanel" id="tab-team" aria-labelledby="t2" hidden>
+                    <h2>Our Team</h2>
+                    <div class="team-grid">
+                        <div class="team-member"><div class="avatar" aria-hidden="true">&#128084;</div><h3>Ramakholwana Ankhodisaho</h3><p><strong>Owner</strong></p><p>Started Rams Instruments and runs the shop.</p></div>
+                        <div class="team-member"><div class="avatar" aria-hidden="true">&#128104;</div><h3>Ndou Khavhas</h3><p><strong>Sales Employee</strong></p><p>Helps customers find the right instrument.</p></div>
+                        <div class="team-member"><div class="avatar" aria-hidden="true">&#128104;</div><h3>Kopano Sinthumule</h3><p><strong>Orders Employee</strong></p><p>Looks after customer orders.</p></div>
+                        <div class="team-member"><div class="avatar" aria-hidden="true">&#128104;</div><h3>Khangale Oluga</h3><p><strong>Customer Care Employee</strong></p><p>Helps customers every day.</p></div>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <div class="avatar">👨</div>
-                    <h3>Khangale Oluga</h3>
-                    <p><strong>Employee</strong></p>
-                    <p>Work hard to help custumer and make sure evry thing run good.</p>
+                <div role="tabpanel" id="tab-do" aria-labelledby="t3" hidden>
+                    <h2>What We Do</h2>
+                    <h3>We Sell</h3>
+                    <ul><li>Guitars (acoustic, classical and electric)</li><li>Drums and percussion</li><li>Pianos and keyboards</li><li>Violins and string instruments</li><li>Wind and brass instruments</li><li>Music accessories</li></ul>
+                    <h3>We Help You</h3>
+                    <ul><li>Choose the right instrument</li><li>Learn how to play</li><li>Repair your instrument</li><li>Get a good price</li></ul>
                 </div>
             </div>
         </section>
-
-        <section>
-            <h2>What We Do</h2>
-            <h3>We Sell</h3>
-            <ul>
-                <li>Guiters - acoustic and electric</li>
-                <li>Drums and percussion intrament</li>
-                <li>Piano and keyboards</li>
-                <li>Violin and string intrament</li>
-                <li>Wind and brass intrament</li>
-                <li>Musik aksesori and extra thing</li>
-            </ul>
-            
-            <h3>We Help You</h3>
-            <ul>
-                <li>Choose right intrament for your need</li>
-                <li>Learn how to play musik</li>
-                <li>Fix and maintain your instrament</li>
-                <li>Give good price</li>
-                <li>Fast delivery all over South Africa</li>
-            </ul>
-        </section>
     </main>
-
     <footer>
-        <p>&copy; 2026 Rams Instruments. All rights protekted.</p>
-        <p>Email: info@ramsinstruments.co.za | Phone: +27 15 555 0123</p>
+        <p>&copy; 2026 Rams Instruments. All rights reserved.</p>
+        <p>Email: <a href="mailto:info@ramsinstruments.co.za">info@ramsinstruments.co.za</a> | Phone: +27 15 555 0123</p>
+        <p>Follow us: <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a> | <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     </footer>
+    <script src="js/main.js" defer></script>
 </body>
 </html>

@@ -1,109 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Rams Instruments</title>
-    <link rel="stylesheet" href="css/style-full.css">
+    <title>Contact Rams Instruments | Stores in Johannesburg, Cape Town, Durban</title>
+    <meta name="description" content="Find Rams Instruments stores in Johannesburg, Cape Town and Durban. See opening hours on the map, read our FAQ or send us a message.">
+    <meta name="keywords" content="contact music shop, music store Johannesburg, music store Cape Town, music store Durban, instrument repair">
+    <meta name="author" content="Rams Instruments">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/rams-instruments/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact Rams Instruments | Stores in Johannesburg, Cape Town, Durban">
+    <meta property="og:description" content="Find Rams Instruments stores in Johannesburg, Cape Town and Durban. See opening hours on the map, read our FAQ or send us a message.">
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/rams-instruments/contact.html">
+    <meta property="og:image" content="https://YOUR-USERNAME.github.io/rams-instruments/images/rams-instruments-logo.png">
+    <link rel="icon" type="image/png" href="images/rams-instruments-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"MusicStore","name":"Rams Instruments","telephone":"+27155550123","email":"info@ramsinstruments.co.za","url":"https://YOUR-USERNAME.github.io/rams-instruments/","address":[{"@type":"PostalAddress","streetAddress":"123 Music Street","addressLocality":"Johannesburg","addressCountry":"ZA"},{"@type":"PostalAddress","streetAddress":"456 Harmony Road","addressLocality":"Cape Town","addressCountry":"ZA"},{"@type":"PostalAddress","streetAddress":"789 Melody Lane","addressLocality":"Durban","addressCountry":"ZA"}],"openingHours":"Mo-Sa 09:00-18:00"}
+    </script>
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="Rams Instruments Logo">
-        </div>
-        <h1>Rams Instruments</h1>
+        <div class="logo"><img src="images/rams-instruments-logo.png" alt="Rams Instruments logo" width="80" height="80"></div>
+        <p class="site-name">Rams Instruments</p>
         <p>Play, Create, Inspire</p>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">&#9776; Menu</button>
+        <ul id="nav-menu"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul>
     </nav>
-
-    <main>
-        <section>
-            <h2>Contact Us</h2>
-            <p>Come visit us or contact us by phone, email or form. We happy to help you find right musik intrament.</p>
+    <main id="main">
+        <section class="reveal">
+            <h1>Contact Us</h1>
+            <h2>Where We Are</h2>
+            <p>Click a store name to see it on the map.</p>
+            <button class="btn store-btn" data-store="0" type="button">Johannesburg</button>
+            <button class="btn store-btn" data-store="1" type="button">Cape Town</button>
+            <button class="btn store-btn" data-store="2" type="button">Durban</button>
+            <div id="map" role="region" aria-label="Map of Rams Instruments stores"></div>
+            <h3>Johannesburg Store (Main)</h3>
+            <p>123 Music Street, Johannesburg | +27 11 555 0123 | <a href="mailto:jhb@ramsinstruments.co.za">jhb@ramsinstruments.co.za</a><br>Open Monday to Saturday, 9am to 6pm</p>
+            <h3>Cape Town Store</h3>
+            <p>456 Harmony Road, Cape Town | +27 21 555 0456 | <a href="mailto:cpt@ramsinstruments.co.za">cpt@ramsinstruments.co.za</a><br>Open Monday to Saturday, 9am to 5pm</p>
+            <h3>Durban Store</h3>
+            <p>789 Melody Lane, Durban | +27 31 555 0789 | <a href="mailto:dbn@ramsinstruments.co.za">dbn@ramsinstruments.co.za</a><br>Open Monday to Saturday, 9am to 5pm</p>
         </section>
-
-        <section>
-            <h3>Our Store Locations</h3>
-            
-            <h4>Johannesburg Store (Main)</h4>
-            <p><strong>Address:</strong> 123 Music Street, Johannesburg, South Africa</p>
-            <p><strong>Phone:</strong> +27 11 555 0123</p>
-            <p><strong>Email:</strong> jhb@ramsinstruments.co.za</p>
-            <p><strong>Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</p>
-            
-            <h4>Cape Town Store</h4>
-            <p><strong>Address:</strong> 456 Harmony Road, Cape Town, South Africa</p>
-            <p><strong>Phone:</strong> +27 21 555 0456</p>
-            <p><strong>Email:</strong> cpt@ramsinstruments.co.za</p>
-            <p><strong>Hours:</strong> Monday - Saturday, 9:00 AM - 5:00 PM</p>
-            
-            <h4>Durban Store</h4>
-            <p><strong>Address:</strong> 789 Melody Lane, Durban, South Africa</p>
-            <p><strong>Phone:</strong> +27 31 555 0789</p>
-            <p><strong>Email:</strong> dbn@ramsinstruments.co.za</p>
-            <p><strong>Hours:</strong> Monday - Saturday, 9:00 AM - 5:00 PM</p>
-        </section>
-
-        <section>
-            <h3>Send Us Message</h3>
-            <form>
+        <section class="reveal">
+            <h2>Send Us a Message</h2>
+            <form id="contact-form" novalidate>
                 <fieldset>
-                    <legend>Your Contact Info</legend>
-                    
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone">
+                    <legend>Contact Information</legend>
+                    <div class="field"><label for="name">Your name *</label><input type="text" id="name" name="name" autocomplete="name" required><span class="error" id="name-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="email">Your email *</label><input type="email" id="email" name="email" autocomplete="email" required><span class="error" id="email-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="phone">Phone (optional)</label><input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="0821234567"><span class="error" id="phone-err" aria-live="polite"></span></div>
                 </fieldset>
-
                 <fieldset>
                     <legend>Your Message</legend>
-                    
-                    <label for="subject">Subject:</label>
-                    <input type="text" id="subject" name="subject" required>
-                    
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+                    <div class="field"><label for="msgtype">Type of message *</label><select id="msgtype" name="msgtype" required><option value="">-- Choose --</option><option>General question</option><option>Compliment</option><option>Complaint</option><option>Repair request</option><option>Sponsorship or volunteering</option></select><span class="error" id="msgtype-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="subject">Subject *</label><input type="text" id="subject" name="subject" required><span class="error" id="subject-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="message">Message *</label><textarea id="message" name="message" required></textarea><span class="char-count" id="char-count">0 / 1000 characters</span><span class="error" id="message-err" aria-live="polite"></span></div>
                 </fieldset>
-
-                <button type="submit">Send Message</button>
+                <button type="submit">Prepare Email</button>
                 <button type="reset">Clear</button>
             </form>
+            <div id="contact-result" class="result" hidden aria-live="polite"></div>
         </section>
-
-        <section>
-            <h3>Common Questions</h3>
-            
-            <h4>How long does delivery take?</h4>
-            <p>We deliver in 3-5 days in Johannesburg. Other city maybe 5-7 days. We use fast courier servise.</p>
-            
-            <h4>Do you fix musik intrament?</h4>
-            <p>Yes we have people who fix guiters, drums and other intrament. Come to store and ask our employee.</p>
-            
-            <h4>Can I return something if I not happy?</h4>
-            <p>Yes you can return in 7 day if not broken or use. You must bring the paper with your order.</p>
-            
-            <h4>What is price for delivery?</h4>
-            <p>Delivery is free for order more than R500. If less than R500, delivery is R50 extra.</p>
+        <section class="reveal">
+            <h2>Frequently Asked Questions</h2>
+            <button class="accordion-btn" type="button" aria-expanded="false">How long does delivery take?</button><div class="accordion-panel"><p>Delivery takes 3 to 5 days in Johannesburg. Other cities take 5 to 7 days.</p></div><button class="accordion-btn" type="button" aria-expanded="false">Do you repair instruments?</button><div class="accordion-panel"><p>Yes. We repair guitars, drums and other instruments. Visit any store to ask for a price.</p></div><button class="accordion-btn" type="button" aria-expanded="false">Can I return an item?</button><div class="accordion-panel"><p>Yes, within 7 days. The item must be new and not damaged. Bring your receipt to the store.</p></div><button class="accordion-btn" type="button" aria-expanded="false">How much is delivery?</button><div class="accordion-panel"><p>Delivery is free if your order is more than R500. If it is R500 or less, delivery costs R50.</p></div>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2026 Rams Instruments. All rights protekted.</p>
-        <p>Email: info@ramsinstruments.co.za | Phone: +27 15 555 0123</p>
+        <p>&copy; 2026 Rams Instruments. All rights reserved.</p>
+        <p>Email: <a href="mailto:info@ramsinstruments.co.za">info@ramsinstruments.co.za</a> | Phone: +27 15 555 0123</p>
+        <p>Follow us: <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a> | <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>

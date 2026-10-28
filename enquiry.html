@@ -1,79 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry - Rams Instruments</title>
-    <link rel="stylesheet" href="css/style-full.css">
+    <title>Product Enquiry | Get a Price Quote | Rams Instruments</title>
+    <meta name="description" content="Ask Rams Instruments about the price, stock and delivery of guitars, pianos, drums and more. Get an instant estimate and a reply within one working day.">
+    <meta name="keywords" content="instrument enquiry, music shop price quote, guitar price South Africa, instrument delivery">
+    <meta name="author" content="Rams Instruments">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/rams-instruments/enquiry.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Product Enquiry | Get a Price Quote | Rams Instruments">
+    <meta property="og:description" content="Ask Rams Instruments about the price, stock and delivery of guitars, pianos, drums and more. Get an instant estimate and a reply within one working day.">
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/rams-instruments/enquiry.html">
+    <meta property="og:image" content="https://YOUR-USERNAME.github.io/rams-instruments/images/rams-instruments-logo.png">
+    <link rel="icon" type="image/png" href="images/rams-instruments-logo.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="Rams Instruments Logo">
-        </div>
-        <h1>Rams Instruments</h1>
+        <div class="logo"><img src="images/rams-instruments-logo.png" alt="Rams Instruments logo" width="80" height="80"></div>
+        <p class="site-name">Rams Instruments</p>
         <p>Play, Create, Inspire</p>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">&#9776; Menu</button>
+        <ul id="nav-menu"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="enquiry.html" aria-current="page">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul>
     </nav>
-
-    <main>
-        <section>
-            <h2>Ask About Product</h2>
-            <p>Fill this form to ask about musik intrament or servise. We will answer your question soon.</p>
+    <main id="main">
+        <section class="reveal">
+            <h1>Product Enquiry</h1>
+            <p>Ask about the price, stock or delivery of an instrument. You will see an estimate right away.</p>
         </section>
-
-        <section>
-            <form>
+        <section class="reveal">
+            <form id="enquiry-form" action="https://jsonplaceholder.typicode.com/posts" method="POST" novalidate>
                 <fieldset>
-                    <legend>Your Personal Info</legend>
-                    
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone">
+                    <legend>Your Details</legend>
+                    <div class="field"><label for="name">Your name *</label><input type="text" id="name" name="name" autocomplete="name" required><span class="error" id="name-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="email">Email address *</label><input type="email" id="email" name="email" autocomplete="email" required><span class="error" id="email-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="phone">Phone (optional)</label><input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="0821234567"><span class="error" id="phone-err" aria-live="polite"></span></div>
                 </fieldset>
-
                 <fieldset>
-                    <legend>Your Question</legend>
-                    
-                    <label for="product">What Musik Intrament:</label>
-                    <select id="product" name="product" required>
-                        <option value="">-- Choose Intrament --</option>
-                        <option value="guitar">Acoustic Guitar</option>
-                        <option value="electric">Electric Guitar</option>
-                        <option value="keyboard">Keyboard</option>
-                        <option value="drums">Drums</option>
-                        <option value="violin">Violin</option>
-                        <option value="wind">Wind Intrament</option>
-                        <option value="other">Other</option>
-                    </select>
-                    
-                    <label for="question">Your Question:</label>
-                    <textarea id="question" name="question" required placeholder="Write your question here..."></textarea>
+                    <legend>Your Enquiry</legend>
+                    <div class="field"><label for="product">Instrument or product *</label><select id="product" name="product" required><option value="">-- Choose a product --</option></select><span class="error" id="product-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="quantity">Quantity *</label><input type="number" id="quantity" name="quantity" value="1" min="1" max="50" required><span class="error" id="quantity-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="delivery">Delivery *</label><select id="delivery" name="delivery"><option value="deliver">Deliver to me</option><option value="collect">I will collect in store</option></select><span class="error" id="delivery-err" aria-live="polite"></span></div>
+                    <div class="field"><label for="question">Your question *</label><textarea id="question" name="question" required placeholder="Tell us what you would like to know"></textarea><span class="error" id="question-err" aria-live="polite"></span></div>
+                    <div class="field"><label><input type="checkbox" id="terms" name="terms" required> I agree that Rams Instruments may contact me about this enquiry. *</label><span class="error" aria-live="polite"></span></div>
                 </fieldset>
-
                 <button type="submit">Send Enquiry</button>
                 <button type="reset">Clear Form</button>
             </form>
+            <div id="enquiry-result" class="result" hidden aria-live="polite"></div>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2026 Rams Instruments. All rights protekted.</p>
-        <p>Email: info@ramsinstruments.co.za | Phone: +27 15 555 0123</p>
+        <p>&copy; 2026 Rams Instruments. All rights reserved.</p>
+        <p>Email: <a href="mailto:info@ramsinstruments.co.za">info@ramsinstruments.co.za</a> | Phone: +27 15 555 0123</p>
+        <p>Follow us: <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a> | <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     </footer>
+    <script src="js/products.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>

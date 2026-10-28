@@ -1,84 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rams Instruments - Buy quality music instruments online">
-    <title>Rams Instruments - Music Store</title>
-    <link rel="stylesheet" href="css/style-full.css">
+    <title>Rams Instruments | Buy Guitars, Pianos and Drums in South Africa</title>
+    <meta name="description" content="Rams Instruments is a South African music shop selling guitars, pianos, drums, violins and wind instruments with stores in Johannesburg, Cape Town and Durban.">
+    <meta name="keywords" content="music shop South Africa, buy guitar, buy piano, drums, violin, musical instruments Johannesburg, Rams Instruments">
+    <meta name="author" content="Rams Instruments">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/rams-instruments/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rams Instruments | Buy Guitars, Pianos and Drums in South Africa">
+    <meta property="og:description" content="Rams Instruments is a South African music shop selling guitars, pianos, drums, violins and wind instruments with stores in Johannesburg, Cape Town and Durban.">
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/rams-instruments/index.html">
+    <meta property="og:image" content="https://YOUR-USERNAME.github.io/rams-instruments/images/acoustic-guitar.png">
+    <link rel="icon" type="image/png" href="images/rams-instruments-logo.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header with logo and branding -->
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="Rams Instruments Logo">
-        </div>
-        <h1>Rams Instruments</h1>
+        <div class="logo"><img src="images/rams-instruments-logo.png" alt="Rams Instruments logo" width="80" height="80"></div>
+        <p class="site-name">Rams Instruments</p>
         <p>Play, Create, Inspire</p>
     </header>
-
-    <!-- Navigation menu -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">&#9776; Menu</button>
+        <ul id="nav-menu"><li><a href="index.html" aria-current="page">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul>
     </nav>
-
-    <!-- Main content area -->
-    <main>
-        <!-- Welcome section -->
-        <section>
-            <h2>Welcome to Rams Instruments</h2>
-            <p>We sell good musik intrament for evry body. We have guiters, drums, piano and many other thing.</p>
-            <p>Our shop help you find the right intrament for you. We have good price and good servise.</p>
+    <main id="main">
+        <section class="reveal">
+            <h1>Welcome to Rams Instruments</h1>
+            <p class="lead">Your music shop in South Africa for guitars, drums, pianos, violins and more.</p>
+            <p>We help beginners and experts find the right instrument at a fair price. Visit us in Johannesburg, Cape Town or Durban.</p>
+            <a class="btn" href="products.html">Browse our products</a>
         </section>
-
-        <!-- Featured products section -->
-        <section>
-            <h2>Our Products</h2>
+        <section class="reveal">
+            <h2>Featured Instruments</h2>
             <div class="products-grid">
-                <div class="product-card">
-                    <img src="images/instrument-000.png" alt="Acoustic Guitar">
-                    <h4>Acoustic Guiter</h4>
-                    <p><strong>Price:</strong> R1,800 - R12,500</p>
-                    <p>Good for begining and profesional player</p>
-                </div>
-                <div class="product-card">
-                    <img src="images/instrument-003.png" alt="Electric Guitar">
-                    <h4>Electric Guiter</h4>
-                    <p><strong>Price:</strong> R3,200 - R15,800</p>
-                    <p>Perfect for rock, metal and jazz</p>
-                </div>
-                <div class="product-card">
-                    <img src="images/instrument-013.png" alt="Keyboard">
-                    <h4>Keyboard & Piano</h4>
-                    <p><strong>Price:</strong> R3,500 - R85,000</p>
-                    <p>Digital and acoustic piano</p>
-                </div>
+                <div class="product-card"><img src="images/acoustic-guitar.png" alt="Acoustic guitar with natural wood finish" width="200" height="200"><h3>Acoustic Guitars</h3><p>Price: R1,800 - R12,500</p></div>
+                <div class="product-card"><img src="images/electric-guitar-stratocaster.png" alt="Black and white Stratocaster electric guitar" width="200" height="200"><h3>Electric Guitars</h3><p>Price: R3,200 - R15,800</p></div>
+                <div class="product-card"><img src="images/electronic-keyboard.png" alt="Electronic keyboard on a stand" width="200" height="200"><h3>Keyboards and Pianos</h3><p>Price: R3,500 - R85,000</p></div>
             </div>
         </section>
-
-        <!-- Why choose us section -->
-        <section>
-            <h2>Why Choose Rams Instruments</h2>
+        <section class="reveal">
+            <h2>Photo Gallery</h2>
+            <p>Click a picture to make it bigger. Use the arrow keys or the buttons to see the next picture.</p>
+            <div id="gallery"></div>
+        </section>
+        <section class="reveal">
+            <h2>Why Choose Us</h2>
             <ul>
-                <li>Good quality musik intrament</li>
-                <li>Good and fair price</li>
-                <li>Good customer servise</li>
-                <li>Help you choose right instrament for you</li>
-                <li>Fast delivery in South Africa</li>
+                <li>Good quality instruments</li>
+                <li>Fair prices</li>
+                <li>Friendly, expert service</li>
+                <li>Help choosing the right instrument</li>
             </ul>
         </section>
+        <div id="lightbox" class="overlay" role="dialog" aria-modal="true" aria-label="Image viewer" tabindex="-1">
+            <div class="lb-box">
+                <img id="lb-img" src="" alt="">
+                <p id="lb-cap"></p>
+                <div class="lb-controls">
+                    <button id="lb-prev" type="button">&larr; Previous</button>
+                    <button id="lb-close" type="button">Close</button>
+                    <button id="lb-next" type="button">Next &rarr;</button>
+                </div>
+            </div>
+        </div>
     </main>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Rams Instruments. All rights protekted.</p>
-        <p>Email: info@ramsinstruments.co.za | Phone: +27 15 555 0123</p>
+        <p>&copy; 2026 Rams Instruments. All rights reserved.</p>
+        <p>Email: <a href="mailto:info@ramsinstruments.co.za">info@ramsinstruments.co.za</a> | Phone: +27 15 555 0123</p>
+        <p>Follow us: <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a> | <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     </footer>
+    <script src="js/products.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>
