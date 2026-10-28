@@ -2,8 +2,6 @@
 
 This is a website for **Rams Instruments**, a music shop in South Africa. The shop sells guitars, keyboards, drums, violins, wind instruments and accessories. It has stores in Johannesburg, Cape Town and Durban.
 
-- **Live site:** https://YOUR-USERNAME.github.io/rams-instruments/ *(change this after you deploy)*
-- **Repository:** https://github.com/YOUR-USERNAME/rams-instruments *(change this)*
 
 ## Files in This Project
 
