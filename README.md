@@ -129,4 +129,4 @@ Sitemaps.org (2026) *Sitemaps XML format*. Available at: https://www.sitemaps.or
 
 W3C (2026) *ARIA Authoring Practices Guide: Tabs pattern*. Available at: https://www.w3.org/WAI/ARIA/apg/patterns/tabs/ (Accessed: 28 October 2026).
 
-*Instrument pictures and logo: add where you got them from (use your Part 1 and Part 2 sources).*
+
